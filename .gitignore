@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules
+dist
+
+# Environment files: these hold your project URL/keys. Only the
+# placeholder template (.env.example) is committed.
+.env
+.env.*
+!.env.example
+*.local
+
+# Supabase CLI files (linked project info, local branches, secrets)
+supabase/.temp
+supabase/.branches
+supabase/.env
+supabase/functions/.env
+supabase/signing_keys.json
+
+# Logs and OS/editor clutter
+*.log
+.DS_Store
+.vscode
+.idea
